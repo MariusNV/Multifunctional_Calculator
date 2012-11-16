@@ -1,0 +1,19 @@
+x = input('x=')
+y = input('y=')
+x = float(x)
+y = float(y)
+print '{} / {} = '.format(x, y), x+y
+print '{} - {} = '.format(x, y), x-y
+print '{} * {} = '.format(x, y), x*y
+print '{} / {} = '.format(x, y), x/y
+print '{} % {} = '.format(x, y), x%y
+print '{} ** {} = '.format(x, y), x**y
+x = int(x)
+y = int(y)
+print 'Binary format for x =', bin(x)
+print 'Binary format for y =', bin(y)
+print 'Octal format for x =', oct(x)
+print 'Octal format for y =', oct(y)
+print 'Hexadecimal format for x =', hex(x)
+print 'Hexadecimal format for y =', hex(y)
+raw_input("Press Enter to exit")
